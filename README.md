@@ -17,6 +17,7 @@ evalCNN.py can be used to evaluate your saved model "models\best model.h5"
 General order to use this project:
 
 Run convert_imgs.py
+- Run convert_imgs.py
 - Run organize.py
 - Run trainCNN.py
 - Run evalCNN.py
