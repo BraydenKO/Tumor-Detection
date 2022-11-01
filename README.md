@@ -15,19 +15,20 @@ trainCNN.py, as the name suggests, trains and saves the best model.
 evalCNN.py can be used to evaluate your saved model "models\best model.h5"
 
 General order to use this project:
+
 Run convert_imgs.py
 Run organize.py
 Run trainCNN.py
 Run evalCNN.py
 
 Requires: 
-  tensorfow
-  matplotlib
-  cv2
-  augmentor
+- tensorfow
+- matplotlib
+- cv2
+- augmentor
   
-  data folder in the same folder as rest of scripts with 2 folders inside:
-    no- brains w/out tumors
-    yes- brains w/ tumors
+- data folder in the same folder as rest of scripts with 2 folders inside:
+   - no- brains w/out tumors
+   - yes- brains w/ tumors
 
 
