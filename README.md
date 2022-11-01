@@ -6,11 +6,20 @@ convert_imgs.py converts all images to png (not neccessary if all images are png
 
 organize.py can be used to create train, test, and validation folders as well as augment and save images.  (This file is a script that should be ran)
 
-buildCNN.py creates a model based on the VGG16 architecture 
+get_images.py is used to get the images from the train, test, and validation folder (not ran by user directly)
+
+buildCNN.py creates a model based on the VGG16 architecture (This is called by trainCNN.py so it doesn't need to be run)
 
 trainCNN.py, as the name suggests, trains and saves the best model.
 
 evalCNN.py can be used to evaluate your saved model "models\best model.h5"
+
+General order to use this project:
+Run convert_imgs.py
+Run organize.py
+Run trainCNN.py
+Run evalCNN.py
+
 
 
 
