@@ -20,7 +20,14 @@ Run organize.py
 Run trainCNN.py
 Run evalCNN.py
 
-
-
+Requires: 
+  tensorfow
+  matplotlib
+  cv2
+  augmentor
+  
+  data folder in the same folder as rest of scripts with 2 folders inside:
+    no- brains w/out tumors
+    yes- brains w/ tumors
 
 
