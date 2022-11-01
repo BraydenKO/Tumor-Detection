@@ -27,6 +27,7 @@ Requires:
 - matplotlib
 - cv2
 - augmentor
+- scipy
   
 - data folder in the same folder as rest of scripts with 2 folders inside:
    - no- brains w/out tumors
